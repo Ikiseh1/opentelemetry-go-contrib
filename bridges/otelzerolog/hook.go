@@ -18,6 +18,7 @@ type config struct {
 	version   string
 	schemaURL string
 }
+// add logging bridge
 
 func newConfig(options []Option) config {
 	var c config
